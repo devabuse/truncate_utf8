@@ -1,0 +1,5 @@
+services:
+  truncate_utf8.twig.truncate_utf8_extension:
+    class: Drupal\truncate_utf8\Twig\TruncateUtf8Extension
+    tags:
+      - { name: twig.extension }

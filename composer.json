@@ -1,0 +1,8 @@
+{
+  "name": "drupal/truncate_utf8",
+  "type": "drupal-module",
+  "description": "Twig extension for Drupal's truncate utf8 function",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "require": { }
+}

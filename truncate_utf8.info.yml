@@ -1,0 +1,5 @@
+name: Truncate UTF8
+type: module
+description: Truncate UTF8
+core: 8.x
+package: Twig Extensions

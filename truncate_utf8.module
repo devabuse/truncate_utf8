@@ -1,0 +1,18 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function truncate_utf8_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.truncate_utf8':
+      $output = '';
+      $output .= '<h3>' . t('Truncate UTF8 twig extension') . '</h3>';
+      $output .= '<p>' . t('Add a twig filter to allow use of truncate utf8, a method for shortening text and adding ellipsis.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
